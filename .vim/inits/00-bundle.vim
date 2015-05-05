@@ -3,10 +3,10 @@ filetype off
 
 if has('vim_starting')
     set runtimepath+=~/.vim/bundle/neobundle.vim
-    call neobundle#begin(expand('~/.vim/bundle/'))
-    NeoBundleFetch 'Shougo/neobundle.vim'
-    call neobundle#end()
 endif
+
+call neobundle#begin(expand('~/.vim/bundle/'))
+NeoBundleFetch 'Shougo/neobundle.vim'
 
 " NeoBundle
 NeoBundle 'itchyny/lightline.vim'
@@ -31,7 +31,10 @@ NeoBundle 'davidhalter/jedi-vim'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'slim-template/vim-slim'
 
+NeoBundle 'glidenote/memolist.vim'
 
+
+call neobundle#end()
 
 filetype plugin indent on
 filetype indent on

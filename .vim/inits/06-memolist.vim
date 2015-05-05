@@ -1,4 +1,3 @@
-NeoBundle 'glidenote/memolist.vim'
 let g:memolist_path = "/Users/sakou/Documents/memoList"
 let g:memolist_memo_suffix = "txt"
 
