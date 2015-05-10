@@ -15,7 +15,7 @@ askYesorNo(){
     
 echo "dotfile settings start"
 
-for f in `ls -a --ignore='\.' --ignore='\.\.' --ignore='.git*' --ignore='setting.sh'`;
+for f in `ls -a | grep ^_`;
 do
 	ln -s ${PWD}/${f} ~/${f}
 done
