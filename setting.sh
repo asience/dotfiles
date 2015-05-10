@@ -17,7 +17,7 @@ echo "dotfile settings start"
 
 for f in `ls -a | grep ^_`;
 do
-	ln -s ${PWD}/${f} ~/${f}
+	ln -s ${PWD}/${f} ~/`echo ${f} | sed 's/_/./'`
 done
 
 askYesorNo "start neobundle install ?"
