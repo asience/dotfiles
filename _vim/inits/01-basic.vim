@@ -55,5 +55,5 @@ nnoremap <Esc><Esc> :<C-u>set nohlsearch<Return> "エスケープ二回で強調
 set enc=utf-8
 set fencs=utf-8
 
-colorscheme jellybeans
+"colorscheme jellybeans
 autocmd FileType * setlocal formatoptions-=ro
