@@ -14,7 +14,6 @@ askYesorNo(){
 }
     
 echo "dotfile settings start"
-cd ~
 
 for f in `ls -a | grep ^_`;
 do
